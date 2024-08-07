@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(222, 239, 244);
+    margin: 0%;
+    font-size: small;
+}
+
+header {
+    background: rgb(247, 253, 254);
+    text-align: center;
+    margin: 10px, 10px;
+    padding-top: 20px;
+}
+span {
+    color: rgba(128, 128, 128, 0.361);
+}
+
+"fa fa-ellipsis-v" {
+    display: flex;
+}
+
+div.container  {
+    width: 600px;
+    margin: auto;
+}
+
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.save_post_icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.fa {
+   margin: 2px;
+   color: rgba(128, 128, 128, 0.361);
+}
+
+div.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.post .post-header {
+   display: flex;
+   justify-content: space-between;
+}
+
+h1 {
+    color: rgb(156, 197, 214);
+    margin: 0%;
+}
+
+h2, p {color: gray;}
+
+div.post {
+    background: white;
+    margin-top: 10px;
+}
+
+div.post h2, div.post {
+    padding: 10px;
+}
+
+div.post img{
+    width: 100%;
+}
